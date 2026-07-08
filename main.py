@@ -15,8 +15,6 @@ app.add_middleware(
     allow_origins=[
         "https://exam.sanand.workers.dev",
         "https://sanand.workers.dev",
-        "http://localhost",
-        "http://127.0.0.1",
     ],
     allow_credentials=True,
     allow_methods=["*"],
